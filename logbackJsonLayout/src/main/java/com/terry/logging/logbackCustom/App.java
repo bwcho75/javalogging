@@ -1,6 +1,7 @@
 package com.terry.logging.logbackCustom;
 
 import java.util.Map;
+import java.util.StringTokenizer;
 import java.util.TreeMap;
 
 import org.slf4j.Logger;
@@ -13,6 +14,6 @@ public class App
     public static void main( String[] args ) 
     {
 
-        log.info("hello log4j");
+        log.info("event:order,name:terry,address:terrycho@google.com");
     }
 }

@@ -2,7 +2,7 @@
 <configuration>
     <appender name="CONSOLE-JSON" class="ch.qos.logback.core.ConsoleAppender">
         <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
-            <layout class="com.terry.logging.logbackCustom.CustomLayout">
+            <layout class="com.terry.logging.logbackLayout.CustomLayout">
                 <jsonFormatter class="ch.qos.logback.contrib.jackson.JacksonJsonFormatter">
                     <prettyPrint>true</prettyPrint>
                 </jsonFormatter>

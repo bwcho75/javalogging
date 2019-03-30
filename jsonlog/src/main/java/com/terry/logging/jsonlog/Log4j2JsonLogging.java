@@ -9,10 +9,10 @@ import org.apache.logging.log4j.message.ObjectMessage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class App 
+public class Log4j2JsonLogging 
 {
 	private static Marker MARKER_WHITESPACE = MarkerManager.getMarker("ANA_WHITESPACE");
-	private static Logger log = LogManager.getLogger(App.class);
+	private static Logger log = LogManager.getLogger(Log4j2JsonLogging.class);
 
     public static void main( String[] args )
     {
